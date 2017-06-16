@@ -1,0 +1,26 @@
+{
+  "name": "lounge-theme-solarized",
+  "version": "1.0.0",
+  "description": "A simple theme with Solarized colours",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/thelounge/lounge-theme-solarized",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelounge/lounge-theme-solarized.git"
+  },
+  "keywords": [
+    "lounge",
+    "lounge-theme"
+  ],
+  "bugs": {
+    "url": "https://github.com/thelounge/lounge-theme-solarized/issues"
+  },
+  "devDependencies": {
+    "stylelint": "^7.11.1",
+    "stylelint-config-standard": "^16.0.0"
+  },
+  "scripts": {
+    "test": "stylelint theme.css"
+  }
+}
