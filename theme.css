@@ -335,3 +335,13 @@ body {
 		content: ">";
 	}
 }
+
+@media (min-width: 480px) {
+	#chat .from:after {
+		background: linear-gradient(to right, rgba(5, 17, 20, 0.5) 0%, #051114 100%);
+	}
+
+	#chat .highlight .from:after {
+		background: linear-gradient(to right, rgba(173, 20, 87, 0.5) 0%, #ad1457 100%);
+	}
+}
