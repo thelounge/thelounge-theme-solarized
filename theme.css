@@ -310,6 +310,12 @@ body {
 	border-bottom-color: #002b36;
 }
 
+#chat .toggle-button,
+#chat .toggle-content {
+	background-color: #002b36;
+	color: #99a2b4;
+}
+
 /* Increase contrast of some IRC colors */
 .irc-fg2 { color: #0074d9; }
 .irc-fg5 { color: #e969a7; }
