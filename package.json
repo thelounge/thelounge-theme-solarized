@@ -2,7 +2,8 @@
   "name": "lounge-theme-solarized",
   "version": "1.0.0",
   "description": "A simple theme with Solarized colours",
-  "main": "index.js",
+  "main": "package.json",
+  "css": "theme.css",
   "license": "MIT",
   "homepage": "https://github.com/thelounge/lounge-theme-solarized",
   "repository": {
