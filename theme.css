@@ -310,10 +310,14 @@ body {
 	border-bottom-color: #002b36;
 }
 
-#chat .toggle-button,
 #chat .toggle-content {
 	background-color: #002b36;
 	color: #99a2b4;
+}
+
+#chat .toggle-button:hover {
+	color: #fff;
+	opacity: 1;
 }
 
 /* Increase contrast of some IRC colors */
