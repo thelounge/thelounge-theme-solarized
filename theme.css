@@ -40,6 +40,15 @@ i.hostmask {
 	display: none;
 }
 
+.context-menu,
+.textcomplete-menu {
+	border: 0;
+}
+
+.context-menu-item:hover,
+.textcomplete-item:hover,
+.textcomplete-menu .active,
+.textcomplete-menu .active a,
 #chat .sidebar,
 body {
 	background-color: #051114;
