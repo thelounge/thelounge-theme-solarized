@@ -10,16 +10,16 @@
 }
 
 ::-moz-placeholder {
-	color: rgba(131, 148, 150, .9);
+	color: rgba(131, 148, 150, 0.9);
 	opacity: 1;
 }
 
 ::-webkit-input-placeholder {
-	color: rgba(131, 148, 150, .9);
+	color: rgba(131, 148, 150, 0.9);
 }
 
 :-ms-input-placeholder {
-	color: rgba(131, 148, 150, .9);
+	color: rgba(131, 148, 150, 0.9);
 }
 
 body,
@@ -33,7 +33,7 @@ body,
 
 i.hostmask {
 	font-size: 90%;
-	opacity: .7;
+	opacity: 0.7;
 }
 
 /* Hide nick (and edit) in input bar, not ideal */
@@ -92,12 +92,12 @@ body {
 }
 
 #chat .show-more-button {
-	background: rgba(88, 110, 117, .3);
+	background: rgba(88, 110, 117, 0.3);
 	color: #fff;
 	border: 0;
 	border-radius: 0;
 	text-transform: uppercase;
-	transition: background .2s;
+	transition: background 0.2s;
 }
 
 #chat .show-more-button:hover {
@@ -358,10 +358,10 @@ body {
 
 @media (min-width: 480px) {
 	#chat .from::after {
-		background: linear-gradient(to right, rgba(5, 17, 20, .5) 0%, #051114 100%);
+		background: linear-gradient(to right, rgba(5, 17, 20, 0.5) 0%, #051114 100%);
 	}
 
 	#chat .channel .highlight .from::after {
-		background: linear-gradient(to right, rgba(173, 20, 87, .5) 0%, #ad1457 100%);
+		background: linear-gradient(to right, rgba(173, 20, 87, 0.5) 0%, #ad1457 100%);
 	}
 }
