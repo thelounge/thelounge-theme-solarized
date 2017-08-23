@@ -27,7 +27,8 @@ body,
 .messages .msg,
 .sidebar,
 #windows #form .input {
-	font: 14px "Roboto", "Noto Sans", "Noto Sans Emoji";
+	font-size: 14px;
+	font-family: "Roboto", "Noto Sans", "Noto Sans Emoji";
 }
 
 i.hostmask {
