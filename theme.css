@@ -22,14 +22,6 @@
 	color: rgba(131, 148, 150, 0.9);
 }
 
-body,
-#windows .header .topic,
-.messages .msg,
-.sidebar,
-#windows #form .input {
-	font-size: 14px;
-}
-
 i.hostmask {
 	font-size: 90%;
 	opacity: 0.7;
