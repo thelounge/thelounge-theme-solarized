@@ -114,13 +114,11 @@ body {
 #sidebar .chan:first-child {
 	color: #268bd2;
 	padding-left: 10px;
-	font-size: 1.1em;
 }
 
 #sidebar .chan,
 #sidebar .chan-placeholder {
 	padding-left: 10px;
-	font-size: inherit;
 }
 
 #sidebar .badge {
