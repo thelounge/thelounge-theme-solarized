@@ -74,10 +74,6 @@ body {
 	color: #268bd2;
 }
 
-#viewport .lt {
-	display: block;
-}
-
 #viewport .lt::after {
 	border-color: #002b36;
 }
@@ -113,12 +109,11 @@ body {
 
 #sidebar .chan:first-child {
 	color: #268bd2;
-	padding-left: 10px;
 }
 
 #sidebar .chan,
 #sidebar .chan-placeholder {
-	padding-left: 10px;
+	padding: 8px 20px;
 }
 
 #sidebar .badge {
@@ -170,10 +165,6 @@ body {
 	background-color: #002b36;
 	width: 200px;
 	height: 43px;
-}
-
-#sidebar .networks {
-	padding: 20px 20px 0;
 }
 
 #main {
