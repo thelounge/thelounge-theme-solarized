@@ -3,7 +3,7 @@
   "version": "1.0.7",
   "description": "A simple theme with Solarized colours",
   "main": "package.json",
-  "lounge": {
+  "thelounge": {
     "name": "Solarized",
     "type": "theme",
     "css": "theme.css"
@@ -15,8 +15,8 @@
     "url": "git+https://github.com/thelounge/lounge-theme-solarized.git"
   },
   "keywords": [
-    "lounge",
-    "lounge-theme"
+    "thelounge",
+    "thelounge-theme"
   ],
   "bugs": {
     "url": "https://github.com/thelounge/lounge-theme-solarized/issues"
