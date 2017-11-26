@@ -107,13 +107,13 @@ body {
 	background-color: inherit;
 }
 
-#sidebar .chan:first-child {
-	color: #268bd2;
-}
-
 #sidebar .chan,
 #sidebar .chan-placeholder {
 	padding: 8px 20px;
+}
+
+#sidebar .chan:first-child {
+	color: #268bd2;
 }
 
 #sidebar .badge {
