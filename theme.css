@@ -277,7 +277,7 @@ body {
 #chat .channel .highlight,
 #chat .channel .highlight .time,
 #chat .channel .highlight .from,
-#chat .channel .highlight .user,
+#chat .channel .highlight .from .user,
 #chat .channel .highlight .text {
 	color: #fff;
 }
@@ -286,6 +286,10 @@ body {
 #chat .channel .highlight .from {
 	background-color: #ad1457;
 	border-color: #ad1457;
+}
+
+#chat .msg .text .user {
+	border-bottom: 1px dotted #555;
 }
 
 #windows .header .topic,
