@@ -274,6 +274,10 @@ body {
 	color: #f0c079;
 }
 
+#chat .msg .text .user {
+	border-bottom: 1px dotted #555;
+}
+
 #chat .channel .highlight,
 #chat .channel .highlight .time,
 #chat .channel .highlight .from,
@@ -286,10 +290,6 @@ body {
 #chat .channel .highlight .from {
 	background-color: #ad1457;
 	border-color: #ad1457;
-}
-
-#chat .msg .text .user {
-	border-bottom: 1px dotted #555;
 }
 
 #windows .header .topic,
@@ -331,11 +331,11 @@ body {
 }
 
 @media (max-width: 479px) {
-	#chat .message .user::before {
+	#chat .message .from .user::before {
 		content: "<";
 	}
 
-	#chat .message .user::after {
+	#chat .message .from .user::after {
 		content: ">";
 	}
 }
