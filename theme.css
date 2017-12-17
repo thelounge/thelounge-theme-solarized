@@ -194,6 +194,10 @@ body {
 	color: #fff;
 }
 
+#chat .msg {
+	text-shadow: 1px 1px 0 rgba(50, 50, 50, 0.5);
+}
+
 #chat.colored-nicks .user.color-1,
 #chat.colored-nicks .user.color-17 {
 	color: #ef4657;
