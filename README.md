@@ -1,8 +1,7 @@
-# lounge-theme-solarized
-🎨 A simple theme with Solarized colours
+🎨 A simple theme with Solarized colours for The Lounge
 
 ```
-lounge install lounge-theme-solarized
+thelounge install thelounge-theme-solarized
 ```
 
 ![](screenshot.png)
