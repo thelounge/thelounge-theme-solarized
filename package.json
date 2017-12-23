@@ -1,6 +1,6 @@
 {
-  "name": "lounge-theme-solarized",
-  "version": "1.0.10",
+  "name": "thelounge-theme-solarized",
+  "version": "1.0.11",
   "description": "A simple theme with Solarized colours",
   "main": "package.json",
   "thelounge": {
@@ -9,17 +9,17 @@
     "css": "theme.css"
   },
   "license": "MIT",
-  "homepage": "https://github.com/thelounge/lounge-theme-solarized",
+  "homepage": "https://github.com/thelounge/thelounge-theme-solarized",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thelounge/lounge-theme-solarized.git"
+    "url": "git+https://github.com/thelounge/thelounge-theme-solarized.git"
   },
   "keywords": [
     "thelounge",
     "thelounge-theme"
   ],
   "bugs": {
-    "url": "https://github.com/thelounge/lounge-theme-solarized/issues"
+    "url": "https://github.com/thelounge/thelounge-theme-solarized/issues"
   },
   "devDependencies": {
     "stylelint": "^8.3.0",
