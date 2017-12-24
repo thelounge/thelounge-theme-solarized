@@ -27,6 +27,15 @@ i.hostmask {
 	opacity: 0.7;
 }
 
+pre,
+code,
+kbd {
+	color: #ddd;
+	background-color: #444;
+	border-color: #666;
+	box-shadow: none;
+}
+
 /* Hide nick (and edit) in input bar, not ideal */
 #nick {
 	display: none;
