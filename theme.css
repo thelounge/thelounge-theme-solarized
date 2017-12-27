@@ -296,7 +296,7 @@ body {
 #chat .channel .highlight .from,
 #chat .channel .highlight .from .user,
 #chat .channel .highlight .text {
-	color: #fff;
+	color: #fff !important;
 }
 
 #chat .channel .highlight .time,
