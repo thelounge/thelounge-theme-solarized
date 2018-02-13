@@ -192,7 +192,7 @@ body {
 #chat .user-mode::before,
 #form,
 #windows .header,
-#chat .from,
+#chat .content,
 #chat .sidebar {
 	border-color: #002b36;
 }
@@ -301,8 +301,11 @@ body {
 
 #chat .channel .highlight .time,
 #chat .channel .highlight .from {
-	background-color: #ad1457;
-	border-color: #ad1457;
+	background-color: #2072ac;
+}
+
+#chat .channel .highlight .content {
+	border-color: #2072ac;
 }
 
 #windows .header .topic,
@@ -359,6 +362,6 @@ body {
 	}
 
 	#chat .channel .highlight .from::after {
-		background: linear-gradient(to right, rgba(173, 20, 87, 0.5) 0%, #ad1457 100%);
+		background: linear-gradient(to right, rgba(32, 114, 172, 0.5) 0%, #2072ac 100%);
 	}
 }
