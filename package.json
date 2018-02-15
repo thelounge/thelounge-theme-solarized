@@ -1,6 +1,6 @@
 {
   "name": "thelounge-theme-solarized",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "A simple theme with Solarized colours",
   "main": "package.json",
   "thelounge": {
