@@ -291,17 +291,14 @@ body {
 	border-bottom: 1px dotted #555;
 }
 
-#chat .channel .highlight,
-#chat .channel .highlight .time,
 #chat .channel .highlight .from,
 #chat .channel .highlight .from .user,
 #chat .channel .highlight .text {
 	color: #fff !important;
 }
 
-#chat .channel .highlight .time,
 #chat .channel .highlight .from {
-	background-color: #2072ac;
+	background: linear-gradient(to right, transparent 0%, #2072ac 60%);
 }
 
 #chat .channel .highlight .content {
@@ -353,6 +350,17 @@ body {
 
 	#chat .message .from .user::after {
 		content: ">";
+	}
+
+	#chat .channel .highlight .time {
+		color: #fff;
+		background: #2072ac;
+		margin-left: -10px;
+		padding-left: 10px;
+	}
+
+	#chat .channel .highlight .from {
+		background: linear-gradient(to left, transparent 0%, #2072ac 100%);
 	}
 }
 
