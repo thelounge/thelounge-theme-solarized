@@ -121,13 +121,18 @@ body {
 	padding: 8px 20px;
 }
 
-#sidebar .chan:first-child {
+#sidebar .chan.lobby {
 	color: #268bd2;
 }
 
 #sidebar .badge {
 	font-size: 12px;
 	margin-top: 0;
+}
+
+#sidebar .network,
+#sidebar .network-placeholder {
+	margin-bottom: 1em;
 }
 
 /* Hide close button on channels, it is not used that frequently */
@@ -139,8 +144,8 @@ body {
 	background: linear-gradient(to right, rgba(69, 81, 100, 0) 0%, #002b36 100%);
 }
 
-#sidebar .chan:first-child:hover,
-#sidebar .chan:first-child.active {
+#sidebar .chan.lobby:hover,
+#sidebar .chan.lobby.active {
 	color: #3d99db;
 }
 
