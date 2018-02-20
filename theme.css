@@ -130,8 +130,7 @@ body {
 	margin-top: 0;
 }
 
-/* Hide close button on channels and lobbies, it is not used that frequently */
-#sidebar .chan.lobby .close,
+/* Hide close button on channels, it is not used that frequently */
 #sidebar .chan.channel .close {
 	display: none;
 }
@@ -140,26 +139,12 @@ body {
 	background: linear-gradient(to right, rgba(69, 81, 100, 0) 0%, #002b36 100%);
 }
 
-#sidebar .chan:first-child::after {
-	content: ' ';
-	display: block;
-	height: 2px;
-	background-color: #268bd2;
-	width: 25px;
-	margin-top: 8px;
-}
-
-#sidebar .chan:first-child:hover::after,
-#sidebar .chan:first-child.active::after {
-	background-color: #3d99db;
-}
-
 #sidebar .chan:first-child:hover,
 #sidebar .chan:first-child.active {
 	color: #3d99db;
 }
 
-#sidebar .chan::before,
+#sidebar .chan:not(.lobby)::before,
 #chat .title::before {
 	content: none !important;
 }
