@@ -27,6 +27,7 @@ i.hostmask {
 	opacity: 0.7;
 }
 
+.irc-monospace,
 pre,
 code,
 kbd {
