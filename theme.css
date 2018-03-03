@@ -22,6 +22,14 @@
 	color: rgba(131, 148, 150, 0.9);
 }
 
+.loading-logo-bright {
+	display: none;
+}
+
+.loading-logo-dark {
+	display: inline-block;
+}
+
 i.hostmask {
 	font-size: 90%;
 	opacity: 0.7;
@@ -47,11 +55,13 @@ kbd {
 	border: 0;
 }
 
-.context-menu-item:hover,
-.textcomplete-item:hover,
-.textcomplete-menu .active,
-.textcomplete-menu .active a,
+.context-menu-item,
+.textcomplete-item {
+	transition: none;
+}
+
 #chat .sidebar,
+#windows .window,
 body {
 	background-color: #051114;
 	color: #fff;
@@ -112,8 +122,7 @@ body {
 #input,
 #windows #form .input,
 #form,
-#chat .count,
-#windows .window {
+#chat .count {
 	background-color: inherit;
 }
 
@@ -156,15 +165,24 @@ body {
 }
 
 #sidebar {
-	background-color: #002b36;
 	width: 200px;
 	bottom: 43px;
 }
 
 #footer {
-	background-color: #002b36;
 	width: 200px;
 	height: 43px;
+}
+
+.context-menu-item:hover,
+.textcomplete-item:hover,
+.textcomplete-menu .active,
+.textcomplete-menu .active a,
+#chat .users .user.active,
+#sidebar,
+#footer {
+	color: #fff;
+	background-color: #002b36;
 }
 
 #main {
