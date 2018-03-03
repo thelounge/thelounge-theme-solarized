@@ -67,6 +67,10 @@ body {
 	color: #fff;
 }
 
+.textcomplete-item a {
+	color: #fff;
+}
+
 #chat a {
 	color: #268bd2;
 }
@@ -178,7 +182,6 @@ body {
 .context-menu-item:hover,
 .textcomplete-item:hover,
 .textcomplete-menu .active,
-#chat .textcomplete-menu .active a,
 #chat .users .user.active,
 #sidebar,
 #footer {
