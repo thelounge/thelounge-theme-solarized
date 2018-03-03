@@ -50,14 +50,19 @@ kbd {
 	display: none;
 }
 
-.context-menu,
+#context-menu,
 .textcomplete-menu {
 	border: 0;
+	background-color: #657b83;
 }
 
 .context-menu-item,
 .textcomplete-item {
 	transition: none;
+}
+
+.context-menu-divider {
+	background-color: #aaa;
 }
 
 #chat .sidebar,
@@ -67,6 +72,7 @@ body {
 	color: #fff;
 }
 
+.context-menu-item,
 .textcomplete-item a {
 	color: #fff;
 }
