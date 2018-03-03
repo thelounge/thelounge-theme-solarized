@@ -159,39 +159,23 @@ body {
 	color: #3d99db;
 }
 
-#sidebar .chan:not(.lobby)::before,
-#chat .title::before {
-	content: none !important;
-}
-
 #sidebar {
-	width: 200px;
 	bottom: 43px;
 }
 
 #footer {
-	width: 200px;
 	height: 43px;
 }
 
 .context-menu-item:hover,
 .textcomplete-item:hover,
 .textcomplete-menu .active,
-.textcomplete-menu .active a,
+#chat .textcomplete-menu .active a,
 #chat .users .user.active,
 #sidebar,
 #footer {
 	color: #fff;
 	background-color: #002b36;
-}
-
-#main {
-	left: 200px;
-}
-
-#viewport.menu-open {
-	-webkit-transform: translate3d(200px, 0, 0);
-	transform: translate3d(200px, 0, 0);
 }
 
 #chat .time {
@@ -344,17 +328,6 @@ body {
 .irc-fg2 { color: #0074d9; }
 .irc-fg5 { color: #e969a7; }
 .irc-fg12 { color: #50a8ff; }
-
-@media (max-width: 768px) {
-	#main {
-		left: 0;
-	}
-
-	#sidebar,
-	#footer {
-		left: -200px;
-	}
-}
 
 @media (max-width: 479px) {
 	#chat .message .from .user::before {
