@@ -65,7 +65,7 @@ kbd {
 	background-color: #aaa;
 }
 
-#chat .sidebar,
+#chat .userlist,
 #windows .window,
 body {
 	background-color: #051114;
@@ -132,22 +132,12 @@ body {
 #input,
 #windows #form .input,
 #form,
-#chat .count {
+#chat .userlist .count {
 	background-color: inherit;
-}
-
-#sidebar .chan,
-#sidebar .chan-placeholder {
-	padding: 8px 20px;
 }
 
 #sidebar .chan.lobby {
 	color: #268bd2;
-}
-
-#sidebar .badge {
-	font-size: 12px;
-	margin-top: 0;
 }
 
 #sidebar .network,
@@ -188,7 +178,7 @@ body {
 .context-menu-item:hover,
 .textcomplete-item:hover,
 .textcomplete-menu .active,
-#chat .users .user.active,
+#chat .userlist .user.active,
 #sidebar,
 #footer {
 	color: #fff;
@@ -203,11 +193,11 @@ body {
 #form,
 #windows .header,
 #chat .content,
-#chat .sidebar {
+#chat .userlist {
 	border-color: #002b36;
 }
 
-#chat .search,
+#chat .userlist .search,
 #windows #form .input {
 	border: 0;
 	color: #fff;
