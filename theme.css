@@ -22,11 +22,11 @@
 	color: rgba(131, 148, 150, 0.9);
 }
 
-.loading-logo-bright {
+.logo {
 	display: none;
 }
 
-.loading-logo-dark {
+.logo-inverted {
 	display: inline-block;
 }
 
@@ -140,6 +140,11 @@ body {
 	color: #268bd2;
 }
 
+#sidebar .chan.lobby .lobby-wrap:hover,
+#sidebar .chan.lobby.active {
+	color: #3d99db;
+}
+
 #sidebar .network,
 #sidebar .network-placeholder {
 	margin-bottom: 1em;
@@ -162,17 +167,9 @@ body {
 	background: linear-gradient(to right, rgba(5, 17, 20, 0) 0%, #051114 100%);
 }
 
-#sidebar .chan.lobby:hover,
-#sidebar .chan.lobby.active {
-	color: #3d99db;
-}
-
-#sidebar {
-	bottom: 43px;
-}
-
 #footer {
 	height: 43px;
+	line-height: 43px;
 }
 
 .context-menu-item:hover,
