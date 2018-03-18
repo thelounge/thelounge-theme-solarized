@@ -333,6 +333,12 @@ body {
 .irc-fg5 { color: #e969a7; }
 .irc-fg12 { color: #50a8ff; }
 
+@media (max-width: 768px) {
+	#sidebar-overlay {
+		background: rgba(0, 0, 0, 0.8);
+	}
+}
+
 @media (max-width: 479px) {
 	#chat .message .from .user::before {
 		content: "<";
