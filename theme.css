@@ -43,6 +43,7 @@ kbd {
 	background-color: #444;
 	border-color: #666;
 	box-shadow: none;
+	text-shadow: none;
 }
 
 /* Hide nick (and edit) in input bar, not ideal */
