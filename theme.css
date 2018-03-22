@@ -156,16 +156,8 @@ body {
 	display: none;
 }
 
-#sidebar .chan .name::after {
-	background: linear-gradient(to right, rgba(69, 81, 100, 0) 0%, #002b36 100%);
-}
-
 #sidebar .chan.active {
 	background-color: #051114;
-}
-
-#sidebar .chan.active .name::after {
-	background: linear-gradient(to right, rgba(5, 17, 20, 0) 0%, #051114 100%);
 }
 
 #footer {
@@ -358,15 +350,5 @@ body {
 
 	#chat .channel .highlight .from {
 		background: linear-gradient(to left, transparent 0%, #2072ac 100%);
-	}
-}
-
-@media (min-width: 480px) {
-	#chat .from::after {
-		background: linear-gradient(to right, rgba(5, 17, 20, 0.5) 0%, #051114 100%);
-	}
-
-	#chat .channel .highlight .from::after {
-		background: linear-gradient(to right, rgba(32, 114, 172, 0.5) 0%, #2072ac 100%);
 	}
 }
