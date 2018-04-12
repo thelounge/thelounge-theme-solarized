@@ -5,6 +5,12 @@
  * License: MIT
  */
 
+:root {
+	--link-color: #268bd2;
+	--background-dark-color: #051114;
+	--background-light-color: #002b36;
+}
+
 ::-webkit-scrollbar {
 	display: none;
 }
@@ -69,17 +75,13 @@ kbd {
 #chat .userlist,
 #windows .window,
 body {
-	background-color: #051114;
+	background-color: var(--background-dark-color);
 	color: #fff;
 }
 
 .context-menu-item,
 .textcomplete-item a {
 	color: #fff;
-}
-
-#chat a {
-	color: #268bd2;
 }
 
 #chat .date-marker,
@@ -92,21 +94,21 @@ body {
 }
 
 #chat .date-marker-text::before {
-	background-color: #051114;
+	background-color: var(--background-dark-color);
 	color: #acf046;
 }
 
 #chat .unread-marker::before {
-	border-color: #268bd2;
+	border-color: var(--link-color);
 }
 
 #chat .unread-marker-text::before {
-	background-color: #051114;
-	color: #268bd2;
+	background-color: var(--background-dark-color);
+	color: var(--link-color);
 }
 
 #viewport .lt::after {
-	border-color: #002b36;
+	border-color: var(--background-light-color);
 }
 
 #chat .show-more-button {
@@ -138,7 +140,7 @@ body {
 }
 
 #sidebar .chan.lobby {
-	color: #268bd2;
+	color: var(--link-color);
 }
 
 #sidebar .chan.lobby .lobby-wrap:hover,
@@ -157,7 +159,7 @@ body {
 }
 
 #sidebar .chan.active {
-	background-color: #051114;
+	background-color: var(--background-dark-color);
 }
 
 #footer {
@@ -172,7 +174,7 @@ body {
 #sidebar,
 #footer {
 	color: #fff;
-	background-color: #002b36;
+	background-color: var(--background-light-color);
 }
 
 #chat .time {
@@ -184,7 +186,7 @@ body {
 #windows .header,
 #chat .content,
 #chat .userlist {
-	border-color: #002b36;
+	border-color: var(--background-light-color);
 }
 
 #chat .userlist .search,
@@ -281,18 +283,19 @@ body {
 	border-bottom: 1px dotted #555;
 }
 
+#chat .channel .highlight .time {
+	background: linear-gradient(to right, var(--link-color) 5px, transparent 5px);
+	color: #fff;
+}
+
+#chat .channel .highlight {
+	background-color: var(--background-light-color);
+}
+
 #chat .channel .highlight .from,
-#chat .channel .highlight .from .user,
-#chat .channel .highlight .text {
-	color: #fff !important;
-}
-
-#chat .channel .highlight .from {
-	background: linear-gradient(to right, transparent 0%, #2072ac 60%);
-}
-
-#chat .channel .highlight .content {
-	border-color: #2072ac;
+#chat .channel .highlight .text,
+#chat .channel .highlight .user {
+	color: inherit;
 }
 
 #windows .header .topic,
@@ -304,21 +307,17 @@ body {
 #chat table.ban-list th,
 #chat table.channel-list td,
 #chat table.ban-list td {
-	border-bottom-color: #002b36;
+	border-bottom-color: var(--background-light-color);
 }
 
 #chat .toggle-content {
-	background-color: #002b36;
+	background-color: var(--background-light-color);
 	color: #99a2b4;
 }
 
 #chat .toggle-button:hover {
 	color: #fff;
 	opacity: 1;
-}
-
-#chat .toggle-type-error {
-	padding: 4px;
 }
 
 /* Increase contrast of some IRC colors */
@@ -341,14 +340,14 @@ body {
 		content: ">";
 	}
 
+	/* expand highlight background to edges of the screen */
 	#chat .channel .highlight .time {
-		color: #fff;
-		background: #2072ac;
 		margin-left: -10px;
 		padding-left: 10px;
 	}
 
-	#chat .channel .highlight .from {
-		background: linear-gradient(to left, transparent 0%, #2072ac 100%);
+	#chat .channel .highlight {
+		margin: 0 -10px;
+		padding: 0 10px;
 	}
 }
