@@ -292,9 +292,7 @@ body {
 	background-color: var(--background-light-color);
 }
 
-#chat .channel .highlight .from,
-#chat .channel .highlight .text,
-#chat .channel .highlight .user {
+#chat .channel .highlight .text {
 	color: inherit;
 }
 
