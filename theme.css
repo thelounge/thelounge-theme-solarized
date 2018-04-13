@@ -279,6 +279,11 @@ body {
 	color: #f0c079;
 }
 
+#chat .toggle-content {
+	background-color: var(--background-light-color);
+	color: #99a2b4;
+}
+
 #chat .msg .text .user {
 	border-bottom: 1px dotted #555;
 }
@@ -296,6 +301,10 @@ body {
 	color: inherit;
 }
 
+#chat .channel .highlight .toggle-content {
+	background-color: var(--background-dark-color);
+}
+
 #windows .header .topic,
 #chat table.channel-list td {
 	color: #999;
@@ -306,11 +315,6 @@ body {
 #chat table.channel-list td,
 #chat table.ban-list td {
 	border-bottom-color: var(--background-light-color);
-}
-
-#chat .toggle-content {
-	background-color: var(--background-light-color);
-	color: #99a2b4;
 }
 
 #chat .toggle-button:hover {
