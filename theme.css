@@ -288,13 +288,12 @@ body {
 	border-bottom: 1px dotted #555;
 }
 
-#chat .channel .highlight .time {
-	background: linear-gradient(to right, var(--link-color) 5px, transparent 5px);
-	color: #fff;
+#chat .channel .highlight {
+	background: linear-gradient(to right, var(--link-color) 5px, var(--background-light-color) 5px);
 }
 
-#chat .channel .highlight {
-	background-color: var(--background-light-color);
+#chat .channel .highlight .time {
+	color: #fff;
 }
 
 #chat .channel .highlight .text {
