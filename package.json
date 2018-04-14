@@ -22,8 +22,8 @@
     "url": "https://github.com/thelounge/thelounge-theme-solarized/issues"
   },
   "devDependencies": {
-    "stylelint": "^8.3.0",
-    "stylelint-config-standard": "^18.0.0"
+    "stylelint": "^9.2.0",
+    "stylelint-config-standard": "^18.2.0"
   },
   "scripts": {
     "test": "stylelint theme.css"
