@@ -5,27 +5,24 @@
  * License: MIT
  */
 
+::-webkit-scrollbar {
+	display: none;
+}
+
+/* Samsung Internet and Microsoft Edge (yes, both of them use -webkit- prefix) */
+::-webkit-input-placeholder {
+	color: rgba(131, 148, 150, 0.9);
+}
+
 :root {
 	--link-color: #268bd2;
 	--background-dark-color: #051114;
 	--background-light-color: #002b36;
 }
 
-::-webkit-scrollbar {
-	display: none;
-}
-
-::-moz-placeholder {
+::placeholder {
 	color: rgba(131, 148, 150, 0.9);
-	opacity: 1;
-}
-
-::-webkit-input-placeholder {
-	color: rgba(131, 148, 150, 0.9);
-}
-
-:-ms-input-placeholder {
-	color: rgba(131, 148, 150, 0.9);
+	opacity: 1; /* fix opacity in Firefox */
 }
 
 .logo {
@@ -179,7 +176,7 @@ body {
 
 #chat .self .text,
 #chat .time {
-	color: #8ba1a7;
+	color: #999;
 }
 
 #chat .user-mode::before,
@@ -282,6 +279,11 @@ body {
 
 #chat .toggle-content {
 	background-color: var(--background-light-color);
+}
+
+#chat .toggle-content,
+#chat .toggle-text .body,
+#chat .toggle-type-error {
 	color: #99a2b4;
 }
 
