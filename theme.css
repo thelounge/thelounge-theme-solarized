@@ -181,7 +181,7 @@ body {
 
 #chat .user-mode::before,
 #form,
-#windows .header,
+#windows #chat .header,
 #chat .content,
 #chat .userlist {
 	border-color: var(--background-light-color);
