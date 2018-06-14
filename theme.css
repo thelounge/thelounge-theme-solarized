@@ -329,9 +329,10 @@ body {
 }
 
 /* Increase contrast of some IRC colors */
-.irc-fg2 { color: #0074d9; }
+.irc-fg2 { color: #007ae6; }
 .irc-fg5 { color: #e969a7; }
-.irc-fg12 { color: #50a8ff; }
+.irc-fg6 { color: #d20ff0; }
+.irc-fg12 { color: #66b2ff; }
 
 @media (max-width: 768px) {
 	#sidebar-overlay {
