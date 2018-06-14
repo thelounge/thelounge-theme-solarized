@@ -174,9 +174,13 @@ body {
 	background-color: var(--background-light-color);
 }
 
-#chat .self .text,
-#chat .time {
-	color: #999;
+#chat .self {
+	/* same as background color, but lighter */
+	background: linear-gradient(to right, hsla(194, 61%, 16%, 1) 5px, #07181d 5px);
+}
+
+#chat .self .text {
+	color: #eee;
 }
 
 #chat .user-mode::before,
