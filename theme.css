@@ -350,11 +350,13 @@ body {
 	}
 
 	/* expand highlight background to edges of the screen */
+	#chat .self .time,
 	#chat .channel .highlight .time {
 		margin-left: -10px;
 		padding-left: 10px;
 	}
 
+	#chat .self,
 	#chat .channel .highlight {
 		margin: 0 -10px;
 		padding: 0 10px;
