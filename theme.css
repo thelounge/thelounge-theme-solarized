@@ -25,11 +25,11 @@
 	opacity: 1; /* fix opacity in Firefox */
 }
 
-.logo {
+#windows .logo {
 	display: none;
 }
 
-.logo-inverted {
+#windows .logo-inverted {
 	display: inline-block;
 }
 
@@ -49,9 +49,12 @@ kbd {
 	text-shadow: none;
 }
 
-/* Hide nick (and edit) in input bar, not ideal */
-#nick {
-	display: none;
+#chat .count:before,
+#form #submit,
+#chat button.menu,
+#viewport .lt,
+#viewport .rt {
+	color: #b7c5d1;
 }
 
 #context-menu,
@@ -164,6 +167,7 @@ body {
 	line-height: 43px;
 }
 
+.context-menu-item:focus,
 .context-menu-item:hover,
 .textcomplete-item:hover,
 .textcomplete-menu .active,
@@ -184,11 +188,14 @@ body {
 }
 
 #chat .user-mode::before,
-#form,
 #windows #chat .header,
 #chat .content,
 #chat .userlist {
 	border-color: var(--background-light-color);
+}
+
+#form {
+	border: 1px solid var(--background-light-color);
 }
 
 #chat .userlist .search,
