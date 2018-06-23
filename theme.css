@@ -313,6 +313,10 @@ body {
 	border-bottom: 1px dotted #555;
 }
 
+#chat .channel .message.highlight .time {
+	color: #fff;
+}
+
 #chat .channel .highlight .toggle-content {
 	background-color: var(--background-dark-color);
 }
