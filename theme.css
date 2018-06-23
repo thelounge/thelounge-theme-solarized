@@ -18,6 +18,9 @@
 	--link-color: #268bd2;
 	--background-dark-color: #051114;
 	--background-light-color: #002b36;
+
+	--highlight-bg-color: #002b36;
+	--highlight-border-color: #268bd2;
 }
 
 ::placeholder {
@@ -310,18 +313,6 @@ body {
 	border-bottom: 1px dotted #555;
 }
 
-#chat .channel .highlight {
-	background: linear-gradient(to right, var(--link-color) 5px, var(--background-light-color) 5px);
-}
-
-#chat .channel .highlight .time {
-	color: #fff;
-}
-
-#chat .channel .highlight .text {
-	color: inherit;
-}
-
 #chat .channel .highlight .toggle-content {
 	background-color: var(--background-dark-color);
 }
@@ -364,15 +355,13 @@ body {
 		content: ">";
 	}
 
-	/* expand highlight background to edges of the screen */
-	#chat .self .time,
-	#chat .channel .highlight .time {
+	/* expand self message background to edges of the screen */
+	#chat .self .time {
 		margin-left: -10px;
 		padding-left: 10px;
 	}
 
-	#chat .self,
-	#chat .channel .highlight {
+	#chat .self {
 		margin: 0 -10px;
 		padding: 0 10px;
 	}
