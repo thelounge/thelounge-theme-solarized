@@ -358,15 +358,4 @@ body {
 	#chat .message .from .user::after {
 		content: ">";
 	}
-
-	/* expand self message background to edges of the screen */
-	#chat .self .time {
-		margin-left: -10px;
-		padding-left: 10px;
-	}
-
-	#chat .self {
-		margin: 0 -10px;
-		padding: 0 10px;
-	}
 }
