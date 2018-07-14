@@ -83,6 +83,7 @@ kbd {
 	background-color: #aaa;
 }
 
+#loading,
 #chat .userlist,
 #windows .window,
 body {
