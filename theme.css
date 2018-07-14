@@ -28,10 +28,12 @@
 	opacity: 1; /* fix opacity in Firefox */
 }
 
+#loading .logo,
 #windows .logo {
 	display: none;
 }
 
+#loading .logo-inverted,
 #windows .logo-inverted {
 	display: inline-block;
 }
