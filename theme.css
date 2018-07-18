@@ -121,10 +121,6 @@ body {
 	color: var(--link-color);
 }
 
-#viewport .lt::after {
-	border-color: var(--background-light-color);
-}
-
 #chat .show-more-button {
 	background: rgba(88, 110, 117, 0.3);
 	color: #fff;
@@ -201,6 +197,7 @@ body {
 	color: #eee;
 }
 
+#viewport .lt::after,
 #chat .user-mode::before,
 #windows #chat .header,
 #chat .content,
@@ -216,10 +213,6 @@ body {
 #windows #form .input {
 	border: 0;
 	color: #fff;
-}
-
-#chat .msg {
-	text-shadow: 1px 1px 0 rgba(50, 50, 50, 0.5);
 }
 
 #chat.colored-nicks .user.color-1,
@@ -302,6 +295,7 @@ body {
 	color: #f0c079;
 }
 
+#chat .msg.motd .text,
 #chat .toggle-content {
 	background-color: var(--background-light-color);
 }
