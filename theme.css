@@ -5,10 +5,6 @@
  * License: MIT
  */
 
-::-webkit-scrollbar {
-	display: none;
-}
-
 /* Samsung Internet and Microsoft Edge (yes, both of them use -webkit- prefix) */
 ::-webkit-input-placeholder {
 	color: rgba(131, 148, 150, 0.9);
@@ -18,7 +14,6 @@
 	--link-color: #268bd2;
 	--background-dark-color: #051114;
 	--background-light-color: #002b36;
-
 	--highlight-bg-color: #002b36;
 	--highlight-border-color: #268bd2;
 }
@@ -26,6 +21,15 @@
 ::placeholder {
 	color: rgba(131, 148, 150, 0.9);
 	opacity: 1; /* fix opacity in Firefox */
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background: var(--background-light-color);
+}
+
+html {
+	scrollbar-track-color: var(--background-dark-color);
+	scrollbar-face-color: var(--background-light-color);
 }
 
 #loading .logo,
