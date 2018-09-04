@@ -73,6 +73,7 @@ kbd {
 
 #chat .count::before,
 #form #submit,
+#form #upload,
 #chat button.menu,
 #viewport .lt,
 #viewport .rt {
