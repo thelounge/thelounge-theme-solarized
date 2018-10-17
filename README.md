@@ -22,6 +22,7 @@
 	<img src="screenshot.png" alt="Screenshot of the Solarized theme for The Lounge" width="550">
 </p>
 
+
 ## Installation
 
 Install this theme with:
