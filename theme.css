@@ -41,8 +41,8 @@
 }
 
 html {
-	scrollbar-track-color: var(--body-bg-color);
-	scrollbar-face-color: var(--background-light-color);
+	scrollbar-color: hsl(192, 100%, 25%) hsla(192, 100%, 25%, 10%);
+	scrollbar-width: thin;
 }
 
 #loading .logo,
