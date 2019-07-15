@@ -183,10 +183,6 @@ body {
 	background: linear-gradient(to right, hsla(194, 61%, 16%, 1) 5px, #07181d 5px);
 }
 
-#chat .self .text {
-	color: #eee;
-}
-
 #form,
 #viewport .lt::after,
 #windows #chat .header,
