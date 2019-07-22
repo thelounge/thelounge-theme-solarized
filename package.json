@@ -6,7 +6,8 @@
   "thelounge": {
     "name": "Solarized",
     "type": "theme",
-    "css": "theme.css"
+    "css": "theme.css",
+    "themeColor": "#002b36"
   },
   "license": "MIT",
   "homepage": "https://github.com/thelounge/thelounge-theme-solarized",
