@@ -21,14 +21,18 @@ jobs:
 
       - name: Publish latest
         if: "!contains(github.ref, '-')"
-        run:
-          - npm publish --tag latest --dry-run
-          - npm dist-tag rm thelounge-theme-solarized next || true
+        run: npm publish --tag latest --dry-run
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
 
       - name: Publish next
         if: contains(github.ref, '-')
         run: npm publish --tag next --dry-run
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
+
+      - name: Remove next tag
+        if: "!contains(github.ref, '-')"
+        run: npm dist-tag rm thelounge-theme-solarized next || true
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
