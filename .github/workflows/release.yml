@@ -21,13 +21,13 @@ jobs:
 
       - name: Publish latest
         if: "!contains(github.ref, '-')"
-        run: npm publish --tag latest --dry-run
+        run: npm publish --tag latest
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
 
       - name: Publish next
         if: contains(github.ref, '-')
-        run: npm publish --tag next --dry-run
+        run: npm publish --tag next
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
 
