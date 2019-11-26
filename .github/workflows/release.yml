@@ -21,20 +21,7 @@ jobs:
       - name: Install
         run: yarn --frozen-lockfile --non-interactive
 
-      - name: Publish latest
-        if: "!contains(github.ref, '-')"
-        run: npm publish --tag latest
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
-
-      - name: Publish next
-        if: contains(github.ref, '-')
-        run: npm publish --tag next
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
-
-      - name: Remove next tag
-        if: "!contains(github.ref, '-')"
-        run: npm dist-tag rm thelounge-theme-solarized next || true
+      - name: Publish
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
