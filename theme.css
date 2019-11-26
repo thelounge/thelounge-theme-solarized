@@ -167,8 +167,7 @@ body {
 	line-height: 43px;
 }
 
-.context-menu-item:focus,
-.context-menu-item:hover,
+.context-menu-item.active,
 .textcomplete-item:hover,
 .textcomplete-menu .active,
 #chat .userlist .user.active,
