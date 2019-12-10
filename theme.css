@@ -46,12 +46,12 @@ html {
 }
 
 #loading .logo,
-#windows .logo {
+.window .logo {
 	display: none;
 }
 
 #loading .logo-inverted,
-#windows .logo-inverted {
+.window .logo-inverted {
 	display: inline-block;
 }
 
@@ -105,7 +105,7 @@ kbd {
 
 #loading,
 #chat .userlist,
-#windows .window,
+.window,
 body {
 	background-color: var(--body-bg-color);
 	color: var(--body-color);
@@ -138,27 +138,27 @@ body {
 }
 
 #input,
-#windows #form .input,
+#form .input,
 #form,
 #chat .userlist .count {
 	background-color: inherit;
 }
 
-#sidebar .chan.lobby {
+.channel-list-item[data-type="lobby"] {
 	color: #3d99db;
 }
 
-#sidebar .chan.lobby .lobby-wrap:hover,
-#sidebar .chan.lobby.active {
+.channel-list-item[data-type="lobby"] .lobby-wrap:hover,
+#sidebar .channel-list-item[data-type="lobby"].active {
 	color: #93c7eb;
 }
 
 /* Hide close button on channels, it is not used that frequently */
-#sidebar .chan.channel .close {
+.channel-list-item[data-type="channel"] .close-tooltip {
 	display: none;
 }
 
-#sidebar .chan.active {
+.channel-list-item.active {
 	background-color: var(--body-bg-color);
 }
 
@@ -184,14 +184,14 @@ body {
 
 #form,
 #viewport .lt::after,
-#windows #chat .header,
+#chat .header,
 #chat .content,
 #chat .userlist {
 	border-color: var(--background-light-color);
 }
 
 #chat .userlist .search,
-#windows #form .input {
+#form .input {
 	border: 0;
 	color: var(--body-color);
 }
@@ -287,11 +287,11 @@ body {
 	color: var(--body-color-muted);
 }
 
-#chat .channel .msg.highlight .time {
+#chat .chat-view[data-type="channel"] .msg.highlight .time {
 	color: var(--body-color);
 }
 
-#chat .channel .highlight .toggle-content {
+#chat .chat-view[data-type="channel"] .highlight .toggle-content {
 	background-color: var(--body-bg-color);
 }
 
