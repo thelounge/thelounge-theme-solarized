@@ -21,6 +21,7 @@
 	--highlight-bg-color: #002b36;
 	--highlight-border-color: #268bd2;
 	--background-light-color: #002b36;
+	--overlay-bg-color: rgba(0, 0, 0, 0.8);
 }
 
 ::placeholder {
@@ -148,8 +149,8 @@ body {
 	color: #3d99db;
 }
 
-.channel-list-item[data-type="lobby"] .lobby-wrap:hover,
-#sidebar .channel-list-item[data-type="lobby"].active {
+.channel-list-item[data-type="lobby"]:hover,
+.channel-list-item[data-type="lobby"].active {
 	color: #93c7eb;
 }
 
@@ -311,12 +312,6 @@ body {
 .irc-fg5 { color: #e969a7; }
 .irc-fg6 { color: #d20ff0; }
 .irc-fg12 { color: #66b2ff; }
-
-@media (max-width: 768px) {
-	#sidebar-overlay {
-		background: rgba(0, 0, 0, 0.8);
-	}
-}
 
 @media (max-width: 479px) {
 	#chat .message .from .user::before {
