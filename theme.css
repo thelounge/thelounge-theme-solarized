@@ -277,7 +277,7 @@ body {
 	color: #f0c079;
 }
 
-#chat .msg.motd .text,
+#chat .msg[data-type="motd"] .text,
 #chat .toggle-content {
 	background-color: var(--background-light-color);
 }
