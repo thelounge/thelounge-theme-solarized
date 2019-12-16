@@ -314,11 +314,11 @@ body {
 .irc-fg12 { color: #66b2ff; }
 
 @media (max-width: 479px) {
-	#chat .message .from .user::before {
+	#chat .msg[data-type="message"] .from .user::before {
 		content: "<";
 	}
 
-	#chat .message .from .user::after {
+	#chat .msg[data-type="message"] .from .user::after {
 		content: ">";
 	}
 }
