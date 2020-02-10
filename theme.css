@@ -56,6 +56,11 @@ html {
 	display: inline-block;
 }
 
+#sidebar {
+	color: var(--body-color-muted);
+	background-color: var(--background-light-color);
+}
+
 #sidebar .logo-container {
 	padding-top: 5px;
 }
@@ -172,7 +177,6 @@ body {
 .textcomplete-item:hover,
 .textcomplete-menu .active,
 #chat .userlist .user.active,
-#sidebar,
 #footer {
 	color: var(--body-color);
 	background-color: var(--background-light-color);
