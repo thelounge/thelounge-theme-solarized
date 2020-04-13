@@ -89,6 +89,7 @@ kbd {
 #form #submit,
 #form #upload,
 #chat button.menu,
+#chat button.mentions,
 #viewport .lt,
 #viewport .rt {
 	color: var(--body-color-muted);
