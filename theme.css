@@ -282,6 +282,7 @@ body {
 	color: #f0c079;
 }
 
+#chat .msg[data-type="motd"] .text, /* thelounge <= 4.2.0-pre.2 */
 #chat .msg[data-type="monospace_block"] .text,
 #chat .toggle-content {
 	background-color: var(--background-light-color);
