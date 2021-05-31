@@ -24,6 +24,7 @@
 	--overlay-bg-color: rgba(0, 0, 0, 0.8);
 }
 
+form.message-search input::placeholder,
 ::placeholder {
 	color: rgba(131, 148, 150, 0.9);
 	opacity: 1; /* fix opacity in Firefox */
@@ -90,6 +91,8 @@ kbd {
 #form #upload,
 #chat button.menu,
 #chat button.mentions,
+#chat button.close,
+#chat form.message-search button,
 #viewport .lt,
 #viewport .rt {
 	color: var(--body-color-muted);
@@ -127,7 +130,6 @@ body {
 	background: rgba(88, 110, 117, 0.3);
 	color: var(--body-color);
 	border: 0;
-	border-radius: 0;
 	text-transform: uppercase;
 	transition: background 0.2s;
 }
@@ -142,6 +144,13 @@ body {
 	border: 0;
 	border-radius: 0;
 	margin: 0;
+}
+
+.input,
+form.message-search input {
+	background: var(--background-light-color);
+	color: var(--body-color);
+	border-color: var(--window-heading-color);
 }
 
 #input,
