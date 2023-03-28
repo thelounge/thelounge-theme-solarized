@@ -211,83 +211,83 @@ form.message-search input {
 	color: var(--body-color);
 }
 
-#chat.colored-nicks .user.color-1,
-#chat.colored-nicks .user.color-17 {
+.user.color-1,
+.user.color-17 {
 	color: #ef4657;
 }
 
-#chat.colored-nicks .user.color-2,
-#chat.colored-nicks .user.color-18 {
+.user.color-2,
+.user.color-18 {
 	color: #ff93a4;
 }
 
-#chat.colored-nicks .user.color-3,
-#chat.colored-nicks .user.color-19 {
+.user.color-3,
+.user.color-19 {
 	color: #ffb03b;
 }
 
-#chat.colored-nicks .user.color-4,
-#chat.colored-nicks .user.color-20 {
+.user.color-4,
+.user.color-20 {
 	color: #cc7d08;
 }
 
-#chat.colored-nicks .user.color-5,
-#chat.colored-nicks .user.color-21 {
+.user.color-5,
+.user.color-21 {
 	color: #ffd34e;
 }
 
-#chat.colored-nicks .user.color-6,
-#chat.colored-nicks .user.color-22 {
+.user.color-6,
+.user.color-22 {
 	color: #cca01b;
 }
 
-#chat.colored-nicks .user.color-7,
-#chat.colored-nicks .user.color-23 {
+.user.color-7,
+.user.color-23 {
 	color: #acf046;
 }
 
-#chat.colored-nicks .user.color-8,
-#chat.colored-nicks .user.color-24 {
+.user.color-8,
+.user.color-24 {
 	color: #d5f572;
 }
 
-#chat.colored-nicks .user.color-9,
-#chat.colored-nicks .user.color-25 {
+.user.color-9,
+.user.color-25 {
 	color: #499e8d;
 }
 
-#chat.colored-nicks .user.color-10,
-#chat.colored-nicks .user.color-26 {
+.user.color-10,
+.user.color-26 {
 	color: #b5ffe1;
 }
 
-#chat.colored-nicks .user.color-11,
-#chat.colored-nicks .user.color-27 {
+.user.color-11,
+.user.color-27 {
 	color: #35a7ff;
 }
 
-#chat.colored-nicks .user.color-12,
-#chat.colored-nicks .user.color-28 {
+.user.color-12,
+.user.color-28 {
 	color: #91a6ff;
 }
 
-#chat.colored-nicks .user.color-13,
-#chat.colored-nicks .user.color-29 {
+.user.color-13,
+.user.color-29 {
 	color: #975af2;
 }
 
-#chat.colored-nicks .user.color-14,
-#chat.colored-nicks .user.color-30 {
+.user.color-14,
+.user.color-30 {
 	color: #ff88dc;
 }
 
-#chat.colored-nicks .user.color-15,
-#chat.colored-nicks .user.color-31 {
+.user.color-15,
+.user.color-31 {
 	color: #bd8d46;
 }
 
-#chat.colored-nicks .user.color-16,
-#chat.colored-nicks .user.color-32 {
+.user.color-16,
+.user.color-32 {
 	color: #f0c079;
 }
 
