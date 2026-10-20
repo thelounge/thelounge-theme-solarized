@@ -4,6 +4,10 @@ on:
   push:
     tags: v*
 
+permissions:
+  contents: read
+  id-token: write
+
 jobs:
   release:
     name: Release workflow
@@ -11,17 +15,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v5
 
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v5
         with:
+          node-version: 24
           registry-url: 'https://registry.npmjs.org/'
 
       - name: Install
-        run: yarn --frozen-lockfile --non-interactive
+        run: npm install --no-audit --no-fund
+
+      - name: Test
+        run: npm test
 
       - name: Publish
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
+        run: npm publish --provenance --access public

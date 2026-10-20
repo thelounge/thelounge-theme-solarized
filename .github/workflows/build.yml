@@ -2,6 +2,9 @@ name: Build
 
 on: [push, pull_request]
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: Build and test
@@ -9,13 +12,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v5
 
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
 
       - name: Install
-        run: yarn --frozen-lockfile --non-interactive
+        run: npm install --no-audit --no-fund
 
       - name: Test
-        run: yarn test
+        run: npm test
